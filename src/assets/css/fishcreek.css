@@ -1,0 +1,138 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #6699ff;
+	background-image: url("../images/gradientblue.jpg");
+	/*color: #d5e3ff; */
+	color: #460da5;
+	/*margin-top: 0px;*/
+}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	line-height: 200%;
+	color: #ffffff;
+	text-shadow: 1px 2px #dedede;
+	text-align: center;
+}
+
+nav {
+	font-size: 1.1em;
+	font-weight: bold;
+	width: 8em;
+	margin: 2em;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+    color: #2a2ac0;
+}
+
+nav a:visited {
+	color: #037aba;
+}
+
+span {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	margin-left: 40px;     
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background-color: white;
+	table-layout: auto;
+	width: 100%;
+}
+
+tr {
+	vertical-align: top;
+}
+
+th {
+	background-image: url("../images/lilfish.gif");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+p {
+	color: #460da5;
+}
+
+h4 {
+	margin-bottom: 0px;
+	margin-top: 1px;
+	color: #003f6e;
+	text-shadow: 1px 2px #aaa;
+}
+
+h3 {
+	color: #2a2ac0;
+	text-shadow: 1px 2px #aaa;
+}
+
+.question {
+	padding: 0px;
+	margin: 0px;
+}
+
+.answer {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 40px;
+}
+
+table#subscribe td {
+	display: block;
+	width: 15%;
+    float: left;
+    text-align: right;
+    margin: 10px;
+}
+
+table#contact td {
+	display: block;
+	width: 15%;
+    float: left;
+    text-align: right;
+    margin: 10px;
+}
+
+textarea, input, select {
+	display: block;
+	width: 100%;
+}
+
+label {
+	overflow: auto;
+	resize: both;
+}
+
+#button {
+	display: block;
+	margin-left: 180px;
+}
+
+footer {
+	font-size: 0.70em;
+	font-style: italic;
+}
+
+a.abutton {
+	text-decoration: none;
+	color: inherit;
+	margin: 30px;
+	font-size: 30px;
+    background: #4E9CAF;
+    padding:10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
